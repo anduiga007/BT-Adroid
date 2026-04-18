@@ -1,0 +1,21 @@
+name: btvn418
+description: Music Player App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^5.2.1
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  image_picker: ^0.8.7+4
+  permission_handler: ^11.2.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audios/
